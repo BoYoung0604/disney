@@ -1,0 +1,44 @@
+@charset "UTF-8";
+.container {
+  height: 100%;
+  padding-top: 200px;
+  box-sizing: border-box;
+
+  .content {
+    height: auto;
+    position: relative;
+
+    .video-content {
+      width: 50%;
+      margin: 0 auto;
+      padding-bottom: 80px;
+      .main-video {
+        width: 100%;
+      }
+    }
+
+    .img-content {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+
+        .left-img-container {
+          width: 25%;
+          float: left;
+          .left-img {
+            width: 95%;
+            float: left;
+          }
+        }
+
+        .right-img-container {
+          width: 25%;
+          float: right;
+          .right-img {
+            width: 95%;
+            float: right;
+          }
+        }
+    }
+  }
+}

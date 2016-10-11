@@ -1,0 +1,66 @@
+<<<<<<< HEAD
+.container {
+  height: 100%;
+  padding-top: 200px;
+  box-sizing: border-box; }
+  .container .content {
+    height: auto;
+    position: relative; }
+    .container .content .video-content {
+      width: 50%;
+      margin: 0 auto;
+      padding-bottom: 80px; }
+      .container .content .video-content .main-video {
+        width: 100%; }
+    .container .content .img-content {
+      position: absolute;
+      bottom: 0;
+      width: 100%; }
+      .container .content .img-content .left-img-container {
+        width: 25%;
+        float: left; }
+        .container .content .img-content .left-img-container .left-img {
+          width: 95%;
+          float: left; }
+      .container .content .img-content .right-img-container {
+        width: 25%;
+        float: right; }
+        .container .content .img-content .right-img-container .right-img {
+          width: 95%;
+          float: right; }
+=======
+.wrap {
+  height: 100%; }
+  .wrap .container {
+    width: 100%;
+    height: 100%; }
+    .wrap .container .intro-wrap {
+      width: 100%;
+      height: 100%;
+      position: fixed; }
+      .wrap .container .intro-wrap .intro-video-background {
+        background-color: #333;
+        width: 100%;
+        height: 100%;
+        opacity: 0.6; }
+      .wrap .container .intro-wrap .intro-video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -1; }
+    .wrap .container .content-wrap {
+      top: 1024px;
+      position: absolute;
+      background-color: #fff;
+      width: 100%;
+      height: 100%; }
+>>>>>>> 5269dcd16bdc2ce39e561622d1b18e9b084064ef
+
+/*# sourceMappingURL=index.css.map */
